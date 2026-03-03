@@ -1,19 +1,31 @@
 <div align="center">
 
 ```
-██████╗ ███████╗ █████╗  ██████╗████████╗██████╗ ██╗████████╗███████╗
-██╔══██╗██╔════╝██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██║╚══██╔══╝██╔════╝
-██████╔╝█████╗  ███████║██║        ██║   ██████╔╝██║   ██║   ███████╗
-██╔══██╗██╔══╝  ██╔══██║██║        ██║   ██╔══██╗██║   ██║   ╚════██║
-██║  ██║███████╗██║  ██║╚██████╗   ██║   ██████╔╝██║   ██║   ███████║
-╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝   ╚═╝   ╚═════╝ ╚═╝   ╚═╝   ╚══════╝
-        TEXT  ANIMATIONS  —  Flutter  Edition
+████████╗███████╗██╗  ██╗████████╗
+╚══██╔══╝██╔════╝╚██╗██╔╝╚══██╔══╝
+   ██║   █████╗   ╚███╔╝    ██║
+   ██║   ██╔══╝   ██╔██╗    ██║
+   ██║   ███████╗██╔╝ ██╗   ██║
+   ╚═╝   ╚══════╝╚═╝  ╚═╝   ╚═╝
+ █████╗ ███╗   ██╗██╗ ███╗   ███╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗
+██╔══██╗████╗  ██║██║ ████╗ ████║██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║
+███████║██╔██╗ ██║██║ ██╔████╔██║███████║   ██║   ██║██║   ██║██╔██╗ ██║
+██╔══██║██║╚██╗██║██║ ██║╚██╔╝██║██╔══██║   ██║   ██║██║   ██║██║╚██╗██║
+██║  ██║██║ ╚████║██║ ██║ ╚═╝ ██║██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║
+╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝ ╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+██████╗ ██╗     ██╗   ██╗███████╗
+██╔══██╗██║     ██║   ██║██╔════╝
+██████╔╝██║     ██║   ██║███████╗
+██╔═══╝ ██║     ██║   ██║╚════██║
+██║     ███████╗╚██████╔╝███████║
+╚═╝     ╚══════╝ ╚═════╝ ╚══════╝
+        text_animation_plus  —  Flutter  Edition
 ```
 
 _23 drop-in text animation widgets. Zero boilerplate. Maximum wow._
 
-[![pub.dev](https://img.shields.io/pub/v/reactbits_text_animations.svg?style=for-the-badge&logo=dart&color=0175C2)](https://pub.dev/packages/reactbits_text_animations)
-[![License: MIT](https://img.shields.io/badge/License-MIT-a855f7?style=for-the-badge)](https://github.com/NexivaServices/reactbits_text_animations/blob/main/LICENSE)
+[![pub.dev](https://img.shields.io/pub/v/text_animation_plus.svg?style=for-the-badge&logo=dart&color=0175C2)](https://pub.dev/packages/text_animation_plus)
+[![License: MIT](https://img.shields.io/badge/License-MIT-a855f7?style=for-the-badge)](https://github.com/NexivaServices/text_animation_plus/blob/main/LICENSE)
 [![Flutter](https://img.shields.io/badge/Flutter-%E2%89%A53.22-54C5F8?style=for-the-badge&logo=flutter)](https://flutter.dev)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Desktop-22c55e?style=for-the-badge)](https://flutter.dev/multi-platform)
 
@@ -21,7 +33,7 @@ _23 drop-in text animation widgets. Zero boilerplate. Maximum wow._
 
 ---
 
-## 🔥 Why reactbits_text_animations?
+## 🔥 Why text_animation_plus?
 
 > Inspired by the legendary [ReactBits](https://reactbits.dev) component library — now native on Flutter.
 
@@ -67,14 +79,14 @@ _23 drop-in text animation widgets. Zero boilerplate. Maximum wow._
 ## 📦 Installation
 
 ```sh
-flutter pub add reactbits_text_animations
+flutter pub add text_animation_plus
 ```
 
 or add manually to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  reactbits_text_animations: ^0.1.0
+  text_animation_plus: ^0.1.0
 ```
 
 ---
@@ -84,7 +96,7 @@ dependencies:
 **One import. Done.**
 
 ```dart
-import 'package:reactbits_text_animations/reactbits_text_animations.dart';
+import 'package:text_animation_plus/text_animation_plus.dart';
 ```
 
 ```dart
@@ -102,7 +114,7 @@ CountUp(from: 0, to: 1_000_000, formatter: NumberFormat.compact())
 
 // Curved infinity-loop marquee with a solid backdrop strip
 CurvedLoop(
-  text: '✦ REACTBITS TEXT ANIMATIONS ✦',
+  text: '✦ TEXT ANIMATION PLUS ✦',
   backgroundColor: Colors.black,
   stripPadding: 8,
   style: const TextStyle(color: Colors.white, fontSize: 14, fontWeight: FontWeight.w700),
@@ -359,6 +371,12 @@ CountUp(from: 0, to: 1000000, formatter: NumberFormat.compact())
 
 Pull requests and issues are welcome!  
 See [CHANGELOG.md](CHANGELOG.md) for the version history.
+
+---
+
+## 🔍 Keywords
+
+`flutter text animation` · `animated text flutter` · `typewriter flutter` · `glitch text flutter` · `flutter marquee` · `flutter word animation` · `flutter letter animation` · `flutter scroll animation` · `flutter text effects` · `flutter particle text` · `flutter gradient text` · `flutter blur text` · `flutter scramble text` · `flutter countup` · `flutter cursor trail` · `flutter split text` · `flutter text widget` · `text animation plus`
 
 ---
 

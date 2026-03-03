@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:reactbits_text_animations/reactbits_text_animations.dart';
+import 'package:text_animation_plus/text_animation_plus.dart';
 
 void main() {
   testWidgets('Package widgets build', (tester) async {

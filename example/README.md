@@ -1,4 +1,4 @@
-# reactbits_text_animations_example
+# text_animation_plus_example
 
 A new Flutter project.
 

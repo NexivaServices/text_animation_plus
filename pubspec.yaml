@@ -1,18 +1,18 @@
-name: reactbits_text_animations
+name: text_animation_plus
 description: >-
   23 plug-and-play Flutter text animation widgets: split, blur, typewriter,
   glitch, curved marquee, scramble, gradient, scroll-reactive, and more.
 version: 0.1.0
-homepage: https://github.com/NexivaServices/reactbits_text_animations
-repository: https://github.com/NexivaServices/reactbits_text_animations
-issue_tracker: https://github.com/NexivaServices/reactbits_text_animations/issues
+homepage: https://github.com/NexivaServices/text_animation_plus
+repository: https://github.com/NexivaServices/text_animation_plus
+issue_tracker: https://github.com/NexivaServices/text_animation_plus/issues
 
 topics:
   - animation
+  - flutter
   - text
   - effects
-  - ui
-  - widgets
+  - widget
 
 environment:
   sdk: ">=3.4.0 <4.0.0"

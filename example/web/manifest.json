@@ -1,6 +1,6 @@
 {
-    "name": "reactbits_text_animations_example",
-    "short_name": "reactbits_text_animations_example",
+    "name": "text_animation_plus_example",
+    "short_name": "text_animation_plus_example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

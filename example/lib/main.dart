@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:reactbits_text_animations/reactbits_text_animations.dart';
+import 'package:text_animation_plus/text_animation_plus.dart';
 
 void main() => runApp(const DemoApp());
 
@@ -43,7 +43,7 @@ class DemoPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'reactbits_text_animations',
+          'text_animation_plus',
           style: TextStyle(fontWeight: FontWeight.w700, fontSize: 18),
         ),
         backgroundColor: Colors.white,
